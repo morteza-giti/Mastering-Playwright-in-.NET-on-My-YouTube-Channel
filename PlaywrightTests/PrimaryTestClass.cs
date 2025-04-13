@@ -4,7 +4,7 @@ using Microsoft.Playwright.Xunit;
 
 namespace PlaywrightTests;
 
-public class TestClass1 : PageTest
+public class PrimaryTestClass : PageTest
 {
     public override async Task InitializeAsync()
     {
