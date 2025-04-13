@@ -22,3 +22,16 @@ You'll learn how to:
 - **Playwright for .NET**
 - **xUnit**
 - **VS Code / Visual Studio**
+
+## 🔄 Episode-Specific Commits
+
+For each episode in the series where I make changes to the solution, I create a **dedicated commit at the end of the video**.
+
+These commits reflect exactly what was implemented during that episode, so you can:
+
+- ✅ Easily track progress from one episode to the next  
+- 🧠 Review changes line by line  
+- 🔁 Compare your own solution with the official one  
+- ⏯️ Resume learning right where you left off
+
+You can navigate to the commit history of this repository and view the specific commit made at the end of any episode to see the final state of the code.
