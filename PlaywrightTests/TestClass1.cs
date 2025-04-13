@@ -6,6 +6,17 @@ namespace PlaywrightTests;
 
 public class TestClass1 : PageTest
 {
+    public override async Task InitializeAsync()
+    {
+        await base.InitializeAsync();
+        await Page.GotoAsync("https://playwright.dev");
+    }
+    public override async Task DisposeAsync()
+    {
+        Console.WriteLine("After each test cleanup");
+        await base.DisposeAsync();
+    }
+
     [Fact]
     public async Task HasTitle()
     {
